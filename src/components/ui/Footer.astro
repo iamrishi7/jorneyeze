@@ -1,0 +1,15 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+
+<style>
+    @keyframes scaleUp {
+        0% { transform: scale(0.8); opacity: 0; }
+        100% { transform: scale(1); opacity: 1; }
+    }
+
+    .scale-up {
+        animation: scaleUp 0.2s ease-out forwards;
+    }
+</style>
