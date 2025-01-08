@@ -23,18 +23,6 @@ import { home } from '../../data/site';
                 {home.description}
             </p>
 
-            <!-- Stats -->
-            <div class="grid grid-cols-2 md:grid-cols-3 gap-8 max-w-3xl mx-auto mt-16 opacity-0 animate-fade-up animation-delay-200">
-                {home.stats.map(stat => (
-                    <div class="text-center">
-                        <div class="text-4xl font-bold font-cal bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
-                            {stat.value}
-                        </div>
-                        <div class="text-sm text-gray-400 mt-1">{stat.label}</div>
-                    </div>
-                ))}
-            </div>
-
             <!-- Features -->
             <div class="cursor-default grid md:grid-cols-3 gap-8 max-w-4xl mx-auto mt-16 opacity-0 animate-fade-up animation-delay-300">
                 {home.features.map(feature => (
